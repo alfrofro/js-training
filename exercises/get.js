@@ -17,32 +17,36 @@ const sourceObject =
 }
 
 // Your code :
-function get (key)
-let sourceObjectKeys = Object.keys(sourceObject)
+function get (object)
 {
-	if (sourceObject.keys === 'num')
+	let num = 0;
+	let bool = true;
+	let str = '';
+	let log = console.log
+
+	if (object == 'num')
 	{
-		return(sourceObject.num)
+		return sourceObject.num
 	}
 
-	else if (sourceObject.keys === 'bool')
+	if (object == 'bool')
 	{
-		return(sourceObject.bool)
+		return sourceObject.bool
 	}
 
-	else if (sourceObject.keys === 'str')
+	if (object == 'str')
 	{
-		return(sourceObject.str)
+		return sourceObject.str
 	}
 
-	else if (sourceObject.keys === 'log')
+	if (object == 'log')
 	{
-		return(sourceObject.log)
+		return sourceObject.log
 	}
 
-	else if (sourceObject.keys === 'noexist')
+	if (object == 'noexist')
 	{
-		return(sourceObject.noexist)
+		return sourceObject.noexist
 	}
 }
 //* Begin of tests

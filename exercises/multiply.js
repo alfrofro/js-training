@@ -48,4 +48,5 @@ assert.strictEqual(multiply(0, 0), 0)
 assert.strictEqual(multiply(123, -22), -2706)
 assert.strictEqual(multiply(-22, 123), -2706)
 assert.strictEqual(multiply(-22, -123), 2706)
+assert.strictEqual(multiply(2, -4), -8)
 // End of tests */
