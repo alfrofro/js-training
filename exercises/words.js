@@ -7,6 +7,9 @@
  */
 
 
+let str = ('');
+return (str.toArray());
+
 //* Begin of tests
 const assert = require('assert')
 

@@ -8,6 +8,12 @@
  */
 
 // Your code :
+let array = []
+let string = ""
+function getFirst(array, string)
+{
+	return(array[0])
+}
 
 //* Begin of tests
 const assert = require('assert')

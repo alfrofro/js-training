@@ -5,7 +5,10 @@
  * and return the same string in upper case
  *
  */
-
+let yell = Function("You must write your own tests")
+{
+	return ("You must write your own tests".toUpperCase());
+}
 
 //* Begin of tests
 const assert = require('assert')

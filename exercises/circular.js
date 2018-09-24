@@ -8,7 +8,10 @@
  */
 
 // Your code :
-
+const circular = new Object()
+{
+	return(2 * Math.PI);
+}
 //* Begin of tests
 const assert = require('assert')
 

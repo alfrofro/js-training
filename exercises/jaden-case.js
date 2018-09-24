@@ -10,8 +10,10 @@
  *
  */
 
-
-
+function jadenCase(string)
+{
+	
+}
 //* Begin of tests
 const assert = require('assert')
 

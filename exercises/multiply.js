@@ -9,7 +9,30 @@
  */
 
 // Your code :
+function multiply(argu1, argu2)
+{
+	if (argu2 === 0 || argu1 === 0)
+	{
+		return 0;
+	}
 
+	let resultat = 0;
+
+	if (argu1 > 0 && argu2 > 0 || argu1 > 0 && argu2 < 0)
+	{
+		for (let i = 0; i < argu1; i++)
+		{
+			resultat += argu2
+		}
+		return resultat;
+	}
+	
+	for (let j = 0; j > argu1; j--)
+	{
+		resultat += -argu2;
+	}
+	return resultat;	
+}
 //* Begin of tests
 const assert = require('assert')
 

@@ -8,7 +8,12 @@
  */
 
 // Your code :
-
+let array = []
+let string = ""
+function getLast(array, string)
+{
+	return(array[array.length-1])
+}
 //* Begin of tests
 const assert = require('assert')
 

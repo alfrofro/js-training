@@ -8,6 +8,11 @@
  */
 
 // Your code :
+const escapeStr = new String()
+if (/\`"' /)
+{
+	return(true)
+}
 
 //* Begin of tests
 const assert = require('assert')

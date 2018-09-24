@@ -8,7 +8,16 @@
  */
 
 // Your code:
+const isPositive = new Function()
+if (isPositive > 0)
+{
+	return true
+}
 
+else
+{
+	return false
+}
 
 //* Begin of tests
 const assert = require('assert')
