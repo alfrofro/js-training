@@ -12,7 +12,7 @@
 // Your code :
 function multiply (number1, number2)
 {
-	if (number2 == 0)
+	if ((number2 == 0) || (number1 == 0))
 	{
 		return 0;
 	}
