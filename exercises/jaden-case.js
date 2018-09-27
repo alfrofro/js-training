@@ -10,10 +10,17 @@
  *
  */
 
-function jadenCase(string)
-{
-	
+
+
+function jadenCase(str) {
+   let string = str.toLowerCase().split(' ');
+   for (let i = 0; i < splitStr.length; i++)
+   {
+		string[i] = string[i].charAt(0).toUpperCase() + string[i].substring(1);     
+   } 
 }
+return("");
+
 //* Begin of tests
 const assert = require('assert')
 
